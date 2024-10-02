@@ -32,6 +32,15 @@ The project includes training and validating models on a dataset of Iranian acto
 
 The dataset consists of images of Iranian actors, which were split into 80% for training and 20% for validation. The input image size was set to `(160, 160)` and the batch size to 32.
 
+## Notebooks
+The project contains three Jupyter notebooks:
+
+1. `face_recognition.ipynb`: Implements all three methods, including the custom CNN, ResNet-based transfer learning, and the custom transfer learning approach.
+
+2. `transfer_learning.ipynb`: Focuses on the custom transfer learning method, where the model trained on a foreign actors dataset is fine-tuned for the Iranian actors dataset.
+
+3. `utils.ipynb`: Contains utility functions for plotting images, as well as visualizing the training/validation loss and accuracy.
+
 ## Key Components
 
 ### 1. Data Augmentation
